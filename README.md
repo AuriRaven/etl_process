@@ -17,15 +17,13 @@ El último paso, consiste en poder crear una base de datos que nos permita leer 
 ```
 etl_process/
 │
-├── etl_ia_model.py
-├── etl_met_cdmx.py
+├── ia_model.ipynb
+├── met_cdmx.ipynb
 ├── create_db.py
 ├── metric_script.py
 │ 
 └── 
 ```
-
-**NOTA** Este ordenamiento de archivos, nos permitirá en un futuro construir librerías personalizadas para estandarizar los procesos ETL y automatizarlos.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # <font color='violet'>I. Datos Meteorológicos de CDMX</font>
