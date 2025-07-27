@@ -3,7 +3,7 @@ import pandas as pd
 
 # Parámetros de conexión
 usuario = 'postgres'
-contraseña = '6Humanos36'
+contraseña = 'escribe_contraseña'
 host = 'localhost'
 puerto = '5432'
 nombre_bd = 'db_met_cdmx'
