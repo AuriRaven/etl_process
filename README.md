@@ -28,7 +28,7 @@ etl_process/
 
 # <font color='violet'>I. Datos Meteorológicos de CDMX</font>
 
-Corresponde a un conjunto de datasets que contienen información meteorológica de la CDMX (2013-2023). Es este caso, nos enfocaremos  
+Corresponde a un conjunto de datasets que contienen información meteorológica de la CDMX (2013-2023). Es este caso, nos enfocaremos en los datos capturados por la estación de captura FES Acatlán.
 ## 1. Descargar Datos
 
 Descargamos la carpeta llamada ***datos***. En esta carpeta leemos las subcarpetas  ***catálogos*** e ***históricos*** las cuales, contienen archivos csv y json respectivamente
