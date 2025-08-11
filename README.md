@@ -38,9 +38,9 @@ Recorremos cada archivo json en la carpeta *históricos*, para entender su estru
 ## 3. Filtrar Datos (FES Acatlán)
 
 Una vez que tenemos una idea de como está anidada la información en los archivos json, procedemos a filtrar la información que corresponde a las capturas de la estación Fes Acatlán (etiquetada como **"FAC"**, segun los csv de catálogos). Procedemos a conectar los csv con la información filtrada de los archivos json. Exportamos estos datos transformados a una tabla estructurada. 
-## 4. Creación de Base de Datos (PosgreSQL)
+## 4. Creación de Base de Datos (PostgreSQL)
 
-Utilizando la librería ```sqlalchemy``` las cual, nos permitirá comunicarnos directamente con PosgreSQL(PgAdmin), en donde creamos una base de datos, la cuál contendrá la tabla estructurada que generamos en el paso anterior. 
+Utilizando la librería ```sqlalchemy``` las cual, nos permitirá comunicarnos directamente con PostgreSQL(PgAdmin), en donde creamos una base de datos, la cuál contendrá la tabla estructurada que generamos en el paso anterior. 
 ## 5. Consultas SQL
 
 Finalmente, una vez creada nuestra base de datos con la tabla, podemos proceder a hacer consultas estructuradas para extraer métricas o KPI's importantes respecto a nuestros datos.
